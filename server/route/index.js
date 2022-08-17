@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
@@ -52,8 +52,7 @@ router.put('/:id',async(req,res)=>{
     }
 })
 
-=======
-<<<<<<< HEAD
+
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
@@ -106,7 +105,6 @@ router.put('/:id',async(req,res)=>{
         res.sendStatus(500);
     }
 })
-=======
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
@@ -123,6 +121,4 @@ router.get('/', async(req,res)=>{
 
 })
 
->>>>>>> main
->>>>>>> fad94a7136cfcb9233ff96af1ff9839c0f89b4cb
 module.exports = router;
